@@ -77,7 +77,7 @@ CareNet/
 ```bash
 # 建立 PostGreSQL 資料庫（Docker 方式）
 docker run -d --name mydb -p 5432:5432 \
-  -e POSTGRES_PASSWORD=postgres \
+  -e POSTGRES_PASSWORD=carenet0429 \
   -e POSTGRES_DB=carenet \
   postgres:16
 
